@@ -1,0 +1,26 @@
+
+/* Remove the footer with "Powered by Snipcart" */
+.snipcart-overwrite #snipcart-footer {
+    display: none;
+}
+
+/* Make sure the "x" button is always in the header top border */
+.snipcart-overwrite #snipcart-close {
+    top: 10px;
+}
+
+/* Change the style of the total box */
+.snipcart-overwrite #snipcart-header #snipcart-header-total {
+    padding-top: 50px;
+    background: #fff;
+    border-color: #bbb;
+}
+.snipcart-overwrite #snipcart-header #snipcart-total {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    opacity: 0.5;
+}
+.snipcart-overwrite #snipcart-header #snipcart-total span {
+    color: #333;
+}
